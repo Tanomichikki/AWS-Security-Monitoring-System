@@ -63,7 +63,7 @@ Notifies admins immediately
 Helps respond to risky activities quickly
 
 ### 🏗️ AWS Architecture Diagram
-<p align="center"> <img src="(https://github.com/Tanomichikki/AWS-Security-Monitoring-System/blob/main/Security%20Monitoring.png)" width="60%" /> </p>
+<p align="center"> <img src="https://github.com/Tanomichikki/AWS-Security-Monitoring-System/blob/main/Security%20Monitoring.png" width="60%" /> </p>
 ☁️ AWS Monitoring Breakdown
 🛡️ AWS CloudTrail — API Activity Logging
 
