@@ -10,9 +10,10 @@ This project demonstrates:
 - Practical cloud security automation techniques
 
 
-▶️ Watch the Project Demo
+## ▶️ Watch the Project Video
 
-(https://youtu.be/zz6p88RGqsw)
+[![AWS Security Monitoring System ](https://img.youtube.com/vi/zz6p88RGqsw/maxresdefault.jpg)](https://youtu.be/zz6p88RGqsw)
+
 
 
 ### 📌 Project Overview
@@ -109,7 +110,7 @@ Each access visible in:
 
 
 
-### 📌 Detailed Workflow (From Script)
+### 📌 Detailed Workflow
 **1️⃣ Store a Secret in Secrets Manager**
 - Save a database password/API key.
 - Enable encryption using AWS-managed or customer-managed KMS key.
@@ -126,18 +127,20 @@ CloudTrail logs events like:
 **3️⃣ Set Up a CloudWatch Metric Filter**
 
 Define a filter pattern:
-``` bash
+```
+bash
 "GetSecretValue"
+
 ```
 
 Define:
-- Metric Name: SecretAccessDetected
-- Namespace: SecurityMonitoring
+- Metric Namespace: SecurityMetrics
+- Metric Name: Secret is accessed
 - Metric Value: 1
 - This triggers whenever your secret is accessed.
 
 **4️⃣ Create CloudWatch Alarm**
-- Alarm threshold = 1
+- Alarm threshold >= 1 (greater than and equal to 1)
 - Whenever metric is triggered → send notification
 
 **5️⃣ SNS Notification**
