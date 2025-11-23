@@ -10,7 +10,7 @@ This project demonstrates:
 - Practical cloud security automation techniques
 
 
-## ▶️ Watch the Project Video
+## ▶️ Watch the Project
 
 [![AWS Security Monitoring System ](https://img.youtube.com/vi/zz6p88RGqsw/maxresdefault.jpg)](https://youtu.be/zz6p88RGqsw)
 
@@ -127,8 +127,7 @@ CloudTrail logs events like:
 **3️⃣ Set Up a CloudWatch Metric Filter**
 
 Define a filter pattern:
-```
-bash
+```bash
 "GetSecretValue"
 
 ```
