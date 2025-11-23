@@ -44,8 +44,11 @@ you must also track every access.
 This setup ensures:
 
 ✔ Only authorized users access your secrets
+
 ✔ Every secret access is logged
+
 ✔ Suspicious access immediately triggers an alert
+
 ✔ You maintain compliance & audit visibility
 
 
