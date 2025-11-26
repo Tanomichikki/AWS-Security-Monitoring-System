@@ -15,7 +15,6 @@ This project demonstrates:
 [![AWS Security Monitoring System ](https://img.youtube.com/vi/zz6p88RGqsw/maxresdefault.jpg)](https://youtu.be/zz6p88RGqsw)
 
 
-
 ### 📌 Project Overview
 
 This project provides end-to-end monitoring on:
